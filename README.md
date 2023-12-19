@@ -11,6 +11,7 @@ Includes unit and integration tests for code reliability.
 Installation
 Clone this repository:
 > git clone https://github.com/rushidarge/Boundary-Patch-Refinement-Paper-Implementation-.git
+
 Install required dependencies:
 > pip install -r requirements.txt
 
