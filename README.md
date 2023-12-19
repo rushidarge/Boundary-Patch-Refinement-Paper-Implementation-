@@ -34,6 +34,7 @@ This repository is licensed under the MIT License. See the LICENSE file for deta
 
 ### Additional Sections
 #### Challenge:
+
 Computational Cost: BPR involves extracting and refining small boundary patches, adding processing steps, and increasing computational load. 
 
 Learning Bias: Refining small patches around boundaries can introduce a bias towards focusing on details at the expense of larger contextual information. 
