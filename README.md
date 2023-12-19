@@ -1,5 +1,14 @@
 # Boundary-Patch-Refinement-Paper-Implementation-
-Boundary Patch Refinement (Paper Implementation)
+
+Boundary Patch Refinement (BPR) is a post-processing framework that improves the quality of instance segmentation boundaries. It involves extracting and refining small boundary patches along the predicted instance boundaries.
+![BPR explain](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*AiF7oNQaBwGQB_e73n0Kyw.png)
+The process of Boundary Patch Refinement for Instance Segmentation involves the following steps: 
+1. Concatenate the image patch and mask patch together
+2. Feed the concatenated image and mask patch into a binary segmentation network
+3. Perform binary segmentation to refine the coarse boundaries
+4. Reassemble the refined boundary patches into a compact instance-level mask
+The BPR framework has shown significant improvements over the Mask R-CNN baseline on the Cityscapes benchmark. 
+
 
 This repository provides a Python implementation of the Boundary Patch Refinement (BPR) algorithm for image segmentation, as described in the research paper: [https://arxiv.org/abs/2104.05239]. BPR refines blurry object boundaries in instance segmentation masks, improving accuracy and performance.
 
