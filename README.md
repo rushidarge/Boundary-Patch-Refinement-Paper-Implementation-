@@ -7,7 +7,7 @@ The process of Boundary Patch Refinement for Instance Segmentation involves the 
 2. Feed the concatenated image and mask patch into a binary segmentation network
 3. Perform binary segmentation to refine the coarse boundaries
 4. Reassemble the refined boundary patches into a compact instance-level mask
-5. 
+
 The BPR framework has shown significant improvements in the segmentation of the Mask R-CNN model. 
 
 
