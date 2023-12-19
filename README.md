@@ -35,11 +35,11 @@ This repository is licensed under the MIT License. See the LICENSE file for deta
 ### Additional Sections
 #### Challenge:
 
-Computational Cost: BPR involves extracting and refining small boundary patches, adding processing steps, and increasing computational load. 
+- Computational Cost: BPR involves extracting and refining small boundary patches, adding processing steps, and increasing computational load. 
 
-Learning Bias: Refining small patches around boundaries can introduce a bias towards focusing on details at the expense of larger contextual information. 
+- Learning Bias: Refining small patches around boundaries can introduce a bias towards focusing on details at the expense of larger contextual information. 
 
-Sensitivity to Training Data: The effectiveness of BPR heavily depends on the quality and diversity of the training data. Datasets with poor boundary annotations or limited object sizes might not translate well to real-world scenarios.
+- Sensitivity to Training Data: The effectiveness of BPR heavily depends on the quality and diversity of the training data. Datasets with poor boundary annotations or limited object sizes might not translate well to real-world scenarios.
 
 Known limitations: 
 1. It slows down the segmentation inference time.
