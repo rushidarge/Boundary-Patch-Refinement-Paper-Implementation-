@@ -22,10 +22,15 @@ The code itself is extensively documented for easy comprehension.
 License
 This repository is licensed under the MIT License. See the LICENSE file for details.
 
-Additional Sections (Optional):
+Additional Sections:
+Known limitations: 
+1. Its increase the inference time of segmentation.
 
-Known limitations: Its increase the inference time of segmentation.
-Future work: we can implement this in segmentation architecture itself.
-             reduce inference time
+Future work: 
+1. we can implement this in segmentation architecture itself.
+2. reduce inference time
+
 Citation: 
+```
 Tang, C., Chen, H., Li, X., Li, J., Zhang, Z., & Hu, X. (2021). Look Closer to Segment Better: Boundary Patch Refinement for Instance Segmentation. ArXiv. /abs/2104.05239
+```
