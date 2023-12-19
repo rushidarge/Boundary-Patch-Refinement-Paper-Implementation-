@@ -1,7 +1,6 @@
 # Boundary-Patch-Refinement-Paper-Implementation-
 Boundary Patch Refinement (Paper Implementation)
 
-Boundary Patch Refinement (BPR) Implementation
 This repository provides a Python implementation of the Boundary Patch Refinement (BPR) algorithm for image segmentation, as described in the research paper: [https://arxiv.org/abs/2104.05239]. BPR refines blurry object boundaries in instance segmentation masks, leading to improved accuracy and performance.
 
 Features
@@ -11,9 +10,9 @@ Provides modular and well-documented code for easy understanding and modificatio
 Includes unit and integration tests for code reliability.
 Installation
 Clone this repository:
-git clone https://github.com/rushidarge/Boundary-Patch-Refinement-Paper-Implementation-.git
+> git clone https://github.com/rushidarge/Boundary-Patch-Refinement-Paper-Implementation-.git
 Install required dependencies:
-pip install -r requirements.txt
+> pip install -r requirements.txt
 
 Documentation
 A detailed overview of the BPR algorithm and its implementation is provided in the docs/ folder.
