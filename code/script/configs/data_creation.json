@@ -1,0 +1,8 @@
+{
+	"patch_size" : 64,
+	"data_path" : "/home/cgiuser/rushikesh/projects/boundry_patch_refinement/data/Mini_dataset/train_data/",
+	"binary_single_part_mask_path" : "/home/cgiuser/rushikesh/projects/boundry_patch_refinement/data/binary_single_part_mask/",
+	"image_patch" : "/home/cgiuser/rushikesh/projects/boundry_patch_refinement/data/model_train_data/Binary_Mask/",
+	"mask_patch" : "/home/cgiuser/rushikesh/projects/boundry_patch_refinement/data/model_train_data/Patches/",
+	"path_to_save_csv" : "/home/cgiuser/rushikesh/projects/boundry_patch_refinement/data/csv/"
+  }

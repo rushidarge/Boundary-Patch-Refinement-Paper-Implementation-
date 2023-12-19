@@ -1,0 +1,14 @@
+{
+    "experiment_name":"train2",
+	"dataset_path" : "/home/cgiuser/rushikesh/projects/boundry_patch_refinement/data/model_train_data/",
+	"model_params": {
+			  "num_of_epochs" : 50,
+			  "lr_rate" : 1e-5,
+			  "batch_size": 32,
+			  "image_size": {
+				  "width": 64,
+				  "height": 64
+			  }
+	},
+	"GPU_parameters": 30000
+  }
